@@ -1,5 +1,12 @@
 # React Demo App
 
+## Getting Started
+`git clone https://github.com/RaoulHofmann/react-demo.git` \
+`npm install`\
+`npm run test`\
+`npm run dev`
+
+### Mocked API
 API endpoints mocked using mswjs
 
 GET /api/location\
