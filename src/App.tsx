@@ -60,6 +60,7 @@ function App() {
 
   const unit = watch("unit");
 
+  // Could have used react-hook-forms subscribe as well but this is simpler
   useEffect(() => {
     if (!unit) return;
 
