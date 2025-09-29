@@ -47,7 +47,6 @@ function App() {
       setSuccess('Consignment submitted successfully!');
       reset();
     } catch (err: unknown) {
-      console.log(err)
       if (err instanceof Error) {
         setError(err.message);
       } else {

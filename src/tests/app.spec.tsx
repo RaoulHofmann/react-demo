@@ -204,8 +204,6 @@ describe('App Component', () => {
     await user.type(heightInput, '10');
     await user.selectOptions(unitSelect, 'millimetres');
 
-    console.log(heightInput)
-
     await waitFor(() => {
       expect((heightInput as HTMLInputElement).value).toBe('1000');
     });
