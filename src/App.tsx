@@ -82,7 +82,7 @@ function App() {
       <h1>Consignment Form</h1>
       <div className="card">
         {error && (
-          <div className="alert">
+          <div className="error">
             {error}
           </div>
         )}
