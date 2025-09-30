@@ -127,6 +127,8 @@ describe('App Component', () => {
 
     await waitFor(() => {
       expect(screen.getByText('Consignment Form'));
+      expect(screen.getByLabelText(/source/i));
+      expect(screen.getByLabelText(/destination/i));
     });
 
     const sourceSelect = screen.getByLabelText(/source/i);
